@@ -1,0 +1,1 @@
+<option value="{{category_id}}" {{selected}}>{{category_name}}</option>
