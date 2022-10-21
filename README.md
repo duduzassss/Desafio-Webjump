@@ -18,7 +18,7 @@
     * Caso você optou por utilizar Virtual Host para alterar a url deste projeto, você também poderá utilizar no parâmetro "URL";
 
 6. Depois de configurado o banco de dados, poderá ser aberto o terminal, e rodar o comando
-> composer install;
+> composer install
 
 se neste passo obtiver sucesso, irá ser criado um diretório **_vendor_** na raiz do projeto;
 
