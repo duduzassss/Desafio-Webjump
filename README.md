@@ -1,6 +1,6 @@
 # Desafio Webjump
 
-###### Como utilizar
+## Como utilizar
 
 1. Crie uma pasta para o projeto dentro do seu servidor. No meu caso utilizei o XAMPP, com a versão do PHP 8;
 
