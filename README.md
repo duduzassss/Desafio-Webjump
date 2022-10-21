@@ -19,6 +19,6 @@
 
 6. Depois de configurado o banco de dados, poderá ser aberto o terminal, e rodar o comando
 > composer install
-    se neste passo obtiver sucesso, irá ser criado um diretório **_vendor_** na raiz do projeto;
+se neste passo obtiver sucesso, irá ser criado um diretório **_vendor_** na raiz do projeto;
 
 7. Após isso você poderá acessar a url que foi configurada no **_.env_** e visualizar a aplicação;
