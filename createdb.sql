@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS desafio_webjump.products (
 CREATE TABLE IF NOT EXISTS desafio_webjump.categories (
     id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL,
-    code VARCHAR(300) NOT NULL,
+    code VARCHAR(300) NOT NULL
 );
 
 
@@ -24,3 +24,12 @@ CREATE TABLE IF NOT EXISTS desafio_webjump.product_has_categories(
     id_categories BIGINT UNSIGNED NOT NULL,
     FOREIGN KEY (id_categories) REFERENCES categories(id)
 );
+
+INSERT INTO desafio_webjump.products (name, sku, description, quantity, price, image)
+VALUES ('Teclado', '790', 'Um teclado mecânico bem legal', 2, 180.90, 'public/assets/images/product/default-product.png');
+
+INSERT INTO desafio_webjump.categories (name, code)
+VALUES ('Periféricos', 'A3BC80');
+
+INSERT INTO desafio_webjump.product_has_categories (id_product, id_categories)
+VALUES (1, 1);
