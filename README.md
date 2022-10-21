@@ -4,7 +4,7 @@
 
 1. Crie uma pasta para o projeto dentro do seu servidor. No meu caso utilizei o **_XAMPP_**, com a versão do **_PHP 8_**;
 
-2. Clonar o repositório dentro da pasta do seu servidor
+2. Clonar o repositório dentro da pasta do seu servidor, que você acabou de criar.
 > git clone https://github.com/duduzassss/Desafio-Webjump.git .
 
 3. Acessar o mysql e utilizar o arquivo **_createdb.sql_** para criação do banco de dados e das tabelas;
