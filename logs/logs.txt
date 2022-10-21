@@ -9,3 +9,4 @@
 [2022-10-21T04:45:40.394652+02:00] desafio.WARNING: The category [Teste] cannot be deleted because it is being used in one or more products. [] []
 [2022-10-21T04:45:55.392327+02:00] desafio.WARNING: The category [Teste] cannot be deleted because it is being used in one or more products. [] []
 [2022-10-21T04:58:10.776030+02:00] desafio.INFO: Category [Testando] registered with in the database. [] []
+[2022-10-21T18:07:51.801837+02:00] desafio.WARNING: The category [Periféricos] cannot be deleted because it is being used in one or more products. [] []
